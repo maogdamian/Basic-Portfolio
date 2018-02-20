@@ -1,0 +1,120 @@
+.header {
+	width: 100%;
+	height: 60px;
+}
+.Title {
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	line-height: 60px;
+}
+#Name {
+	display: inline-block;
+	float: left;
+	width: auto;
+	text-align: center;
+	vertical-align: middle;
+	background-color: teal;
+	margin-left: 20%;
+	font-size: 28px;
+	color: white;
+	font-weight: bolder;
+}
+.NavMenu {
+	height: 60px;
+	float: left;
+}
+.mainblock {
+	clear: both;
+	float: left;
+	width: 600px;
+	height: auto;
+	padding: 0 5px;
+	margin: 0 25px;
+	background-color: white;	
+}
+.maintitle {
+	color: teal;
+	width: 100%;
+	border-bottom: solid 2px gray;
+}
+#profilepic {
+	float: left;
+	display: inline-block;
+	height: 150px;
+	width: auto;
+}
+.ContactLinks {
+	float: left;
+	width: auto;
+	height: auto;
+	background-color: white;
+	margin-top: 0px;
+}
+.contacttitle {
+	text-align: center;
+	width: 100%;
+	line-height: 24px;
+	border-bottom: solid 2px gray;
+}
+.ContactLinks-ul {
+	list-style-type: none;
+	width: 100%;
+	margin: auto;
+}
+.ContactLinks-li {
+	float: left;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+}
+.ContactLinks img {
+	height: 100px;
+	width: 100px;
+}
+.ContactLinks h3 {
+	color: teal;
+}
+.footer {
+	clear: both;
+	height: 50px;
+	text-align: center;
+	line-height:50px;
+}
+.NavMenu-ul {
+	list-style-type: none;
+}
+.NavMenu-li {
+	float: left;
+	margin: 5px 10px;
+	height: 20px;
+}
+#middlecell{
+	border-right: solid 1px gray;
+	border-left: solid 1px gray;
+	padding: 0 10px;
+	margin: 5px 10px;
+}
+.portitems{
+	list-style-type: none;
+}
+.portitem{
+	float: left;
+	height: 250px;
+	width: 200px;
+	text-align: center;
+}
+.portitem-img{
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+.portitem-txt{
+	background-color: black;
+	color: white;
+	float: left;
+	width: 100%;
+	margin-top: -10px;
+}
