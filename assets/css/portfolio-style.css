@@ -6,7 +6,7 @@ body {
 header {
     background: #4aaaa5;
     border:3px #cccccc;
-    padding: 3.9%;
+    padding: 1%;
     margin-left: 6.5%;
     color: #ffffff;
     position: absolute;
@@ -149,107 +149,3 @@ footer{
     text-align: center;
     clear:left;
     }
-    /* For desktop: */
-@media screen and (max-width: 980px)
-    and (min-width: 769px) {
-    
-    .placeholder li{
-        height:100%;
-        width:100%;
-        margin:5%;
-        }
-    .placeholder h2{
-        width: 81.2%;
-    }
-    .connect-box{
-        width:20%;
-        height:10%;
-        }
-    li img{
-        width: 90%;
-        height: 90%;
-        }
-    li{
-        width:30%;
-        }
-    h3{
-        font-size:20px;
-        }
-    }
-    /* For Tablet: */
-@media screen and (max-width: 768px)
-    and (min-width: 641px)
-    {
-    header{
-        margin: 0px 3%;
-    }
-    #nav-bar{
-        margin-top: 0%;
-        padding:3% 3% 3%;
-        padding-right: 0px;
-    }
-    #portfolio{
-        width:auto;
-        height: auto;
-        margin: 3%;
-        float:none;
-        }
-
-    .connect-box{
-        float: none;
-        width: auto;
-        height:auto;
-        margin: 5% 3% 5% 3%;
-        }
-    }
-    /* For Phone: */
-@media screen and (max-width: 640px){
-     header{
-        float:right;
-        width: 100%;
-        height:auto;
-        position: static;
-        text-align: center;
-        margin:0px;
-        padding-top: 5%;
-        padding-right: 0px;
-        }
-    nav{
-        text-align: center;
-        padding-right: 0px;
-        }
-    #nav-bar{
-        padding-top: 15%;
-        padding-bottom: 4%;
-        }
-    nav a:link{
-        color: #777777;
-        text-decoration: none;
-        padding:10%;
-        }
-    #portfolio{
-        width:auto;
-        height: auto;
-        margin: 3%;
-        float:none;
-        }
-     .placeholder li{
-        height:100%;
-        width:100%;
-        margin:5%;
-        }
-    .placeholder h2{
-        width: 82.6%;
-    }
-    .connect-box{
-        float: none;
-        width: auto;
-        height:auto;
-        margin: 3%;
-        }
-    .placeholder li img{
-        width: 90%;
-        height: 90%;
-        }
-    }   
-}
