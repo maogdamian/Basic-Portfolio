@@ -45,23 +45,20 @@ a:link{
     text-decoration: none;
 } 
 
-#main-bio {
+#portfolio {
     border: solid;
     border-width: 1px;
     border-color: #dddddd;
     background: #ffffff;
-    width: 45%;
+    width: 46%;
     margin-left:6.5%;
     margin-top:5%;
     margin-bottom: 5%;
-    padding: 3%;
+    padding: 30px;
     float: left;
-    overflow: auto;
+    list-style-type:none
 }
 
-p{
-    padding-top: 25px;
-}
 #title {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -72,13 +69,35 @@ p{
     padding-top: 10px;
 }
 
-.bio-image{
-    float:left;
-    margin-right: 15px;
+.placeholder ul{
+    margin-left: 0px;
+    margin-right:0px;
     margin-top: 15px;
-    margin-bottom: 15px
-    padding-top:20px;
+    list-style-type:none;
 }
+.placeholder li{
+    position: relative;
+    margin-right: 3.5%;
+    margin-top: 3.5%;
+    margin-left: 0px;
+    margin-bottom: 2.5%;
+    align-items: center;
+}
+
+.placeholder h2{
+    font-size: 20px;
+    font-color: #ffffff;
+    background: #4aaaa5;
+    border:3px #cccccc;
+    padding: 15px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    width: 270px;
+
+}   
 
 .connect-box{
     border: solid;
@@ -100,14 +119,15 @@ p{
     list-style-type: none;
     margin: auto;
     padding: 3%;
+}
+
+.connect-box li{
+    display: inline-block;
     }
-li img{
+.connect-box li img{
     height: 60px;
     width:60px;
 }
-li{
-    display: inline-block;
-    }
 h3{
     border-bottom-style: solid;
     border-width: 3px;
@@ -116,7 +136,7 @@ h3{
     font-size: 24px;
     padding: 4.5%;
     font-weight: bold;
-    }
+}
 
 footer{
     background: #666666;
@@ -129,22 +149,25 @@ footer{
     text-align: center;
     clear:left;
     }
-/* For desktop: */
+    /* For desktop: */
 @media screen and (max-width: 980px)
-    and (min-width: 769px)
-    {
-    .bio-image{
-        height:auto;
-        width:90%;
+    and (min-width: 769px) {
+    
+    .placeholder li{
+        height:100%;
+        width:100%;
         margin:5%;
         }
+    .placeholder h2{
+        width: 81.2%;
+    }
     .connect-box{
         width:20%;
         height:10%;
         }
     li img{
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         }
     li{
         width:30%;
@@ -153,7 +176,7 @@ footer{
         font-size:20px;
         }
     }
-/* For Tablet: */
+    /* For Tablet: */
 @media screen and (max-width: 768px)
     and (min-width: 641px)
     {
@@ -165,22 +188,13 @@ footer{
         padding:3% 3% 3%;
         padding-right: 0px;
     }
-    #main-bio{
+    #portfolio{
         width:auto;
         height: auto;
         margin: 3%;
         float:none;
         }
-    .bio-image{
-        float:left;
-        height: auto;
-        padding-right:1%;
-        margin:1%;
-        }
-    p{
-        margin-left:0px;
-        width: 100%;
-        }
+
     .connect-box{
         float: none;
         width: auto;
@@ -188,11 +202,9 @@ footer{
         margin: 5% 3% 5% 3%;
         }
     }
-/* For Phone: */
-@media screen and (max-width: 640px)
-    and (min-width: 100px){
-    
-    header{
+    /* For Phone: */
+@media screen and (max-width: 640px){
+     header{
         float:right;
         width: 100%;
         height:auto;
@@ -210,32 +222,34 @@ footer{
         padding-top: 15%;
         padding-bottom: 4%;
         }
-    a:link{
+    nav a:link{
         color: #777777;
         text-decoration: none;
         padding:10%;
         }
-    #main-bio{
+    #portfolio{
         width:auto;
         height: auto;
         margin: 3%;
         float:none;
         }
-    .bio-image{
-        height:auto;
-        width:90%;
+     .placeholder li{
+        height:100%;
+        width:100%;
         margin:5%;
         }
-    p{
-        margin-left:1%;
-        width: 100%;
-        }
+    .placeholder h2{
+        width: 82.6%;
+    }
     .connect-box{
         float: none;
         width: auto;
         height:auto;
         margin: 3%;
         }
-    }
-
+    .placeholder li img{
+        width: 90%;
+        height: 90%;
+        }
+    }   
 }

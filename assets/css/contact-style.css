@@ -34,7 +34,6 @@ h1{
     border-width: 3px;
     border-bottom-color: #dddddd;
 }
-
 nav{
 
     padding-right: 12.5%; 
@@ -45,7 +44,7 @@ a:link{
     text-decoration: none;
 } 
 
-#main-bio {
+#contact {
     border: solid;
     border-width: 1px;
     border-color: #dddddd;
@@ -54,14 +53,47 @@ a:link{
     margin-left:6.5%;
     margin-top:5%;
     margin-bottom: 5%;
-    padding: 3%;
+    padding: 2.5%;
     float: left;
-    overflow: auto;
+}
+h5{
+	color: #777777;
+	padding: 0px;
+	margin:3px;
 }
 
-p{
-    padding-top: 25px;
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px 10px 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
+
+input[type=email] {
+    width: 100%;
+    padding: 10px 20px 10px 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: inherit;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 12px 36px;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
 #title {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -70,14 +102,6 @@ p{
     border-bottom-color: #dddddd;
     padding-bottom:25px;
     padding-top: 10px;
-}
-
-.bio-image{
-    float:left;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px
-    padding-top:20px;
 }
 
 .connect-box{
@@ -100,7 +124,7 @@ p{
     list-style-type: none;
     margin: auto;
     padding: 3%;
-    }
+}
 li img{
     height: 60px;
     width:60px;
@@ -116,7 +140,7 @@ h3{
     font-size: 24px;
     padding: 4.5%;
     font-weight: bold;
-    }
+}
 
 footer{
     background: #666666;
@@ -165,7 +189,7 @@ footer{
         padding:3% 3% 3%;
         padding-right: 0px;
     }
-    #main-bio{
+    #contact{
         width:auto;
         height: auto;
         margin: 3%;
@@ -173,7 +197,8 @@ footer{
         }
     .bio-image{
         float:left;
-        height: auto;
+        width: 65%;
+        height:auto;
         padding-right:1%;
         margin:1%;
         }
@@ -215,20 +240,11 @@ footer{
         text-decoration: none;
         padding:10%;
         }
-    #main-bio{
+    #contact{
         width:auto;
         height: auto;
         margin: 3%;
         float:none;
-        }
-    .bio-image{
-        height:auto;
-        width:90%;
-        margin:5%;
-        }
-    p{
-        margin-left:1%;
-        width: 100%;
         }
     .connect-box{
         float: none;
@@ -237,5 +253,4 @@ footer{
         margin: 3%;
         }
     }
-
 }
